@@ -1,0 +1,158 @@
+body {
+
+	margin: 10;
+	padding: 10;
+	color: #443022;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.4em;
+	background-color: #3d1116;
+
+
+	background: repeat-x;
+
+
+}
+
+
+
+.main {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	size: 100px;
+	background-position: center;
+	background-size: contain;
+	height: 90px;
+
+
+	min-height: 200px;
+
+	background-image: url(image/imglogo.png);
+
+	padding: 10px;
+
+
+	background-repeat: no-repeat;
+}
+
+.button {
+	align-items: center;
+    padding-top: 150px;
+	text-align: center;
+}
+
+.button .btn-outline-primary:hover {
+	transition: duration 2px;
+	background-color: #1c3158;
+}
+
+.button .btn {
+	width: 299px;
+	padding: 20;
+	
+	color: #1c3158;
+	text-align: center;
+	box-shadow: 0 4px 30px 20px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 20px;
+	font-size: larger;
+	border-color: #d9d9d9;
+	background-color: #d9d9d9;
+	background-position: center;
+}
+
+.login {
+	height: auto;
+	width: auto;
+
+	/* Center vertically and horizontally */
+	position: absolute;
+	padding: 10px;
+	top: 40%;
+	left: 50%;
+
+	margin: -45px 50px 50px -190px;
+
+	text-align: center;
+	height: 200px;
+
+	border-width: 1px;
+	border-color: #1c3158;
+}
+
+.login .mb-3 {
+	align-items: center;
+	text-align: center;
+}
+
+.login .frmregstr {
+	align-items: center;
+	padding: 5px;
+	text-align: center;
+	box-shadow: 0 4px 30px 20px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mb-3 .form-control {
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+
+}
+
+.login .btnregister {
+
+	position: absolute;
+
+	text-align: left;
+	margin: -15px 10px 0 190px;
+}
+
+.login .form-check {
+
+	position: relative;
+
+	text-align: left;
+	margin: -5px 0px 0 10px;
+}
+
+.login .btnregister .btn {
+	width: 99px;
+	padding: 20;
+	color: #1c3158;
+	text-align: left;
+	box-shadow: 10px 14px 10px 1px rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 10px;
+	font-size: larger;
+	border-color: #d9d9d9;
+	background-color: #d9d9d9;
+	background-position: left;
+
+}
+
+.login .btnregister .btn:hover {
+
+	color: aliceblue;
+	background-color: #1c3158;
+}
+.mb-3  input{
+
+	background-color: #d9d9d9;
+
+}
+.mb-3 div .error{
+	position: relative;
+	top: -1rem;
+	left: 0rem;
+	font-size: 0.8rem;
+	color: #F54081;
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	-o-transform: translateY(0%);
+	transform: translateY(0%);
+
+
+}
